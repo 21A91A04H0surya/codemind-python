@@ -14,3 +14,5 @@ for i in range(m,n+1):
     if prime(i):
         c+=1
 print(c)
+    
+    
