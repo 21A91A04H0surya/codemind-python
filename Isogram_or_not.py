@@ -1,17 +1,13 @@
-a=input()
-x=a.lower()
-b=0
-v=[]
-k=[]
-for i in x:
-    v.append(i)
-for i in v:
-    if v.count(i)==1:
-        k.append(i)
-    else:
+n=input()
+p=list(n)
+l=0
+for i in p:
+    if p.count(i)!=1:
+        print("False")
+        l+=1
         break
-if len(v)==len(k):
-    print("True")
-else:
-    print("False")
     
+        
+if l==0:
+    
+    print("True")
